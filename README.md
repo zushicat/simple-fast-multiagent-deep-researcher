@@ -67,7 +67,7 @@ GOOGLE_SEARCH_URL="https://www.googleapis.com/customsearch/v1"
 #### Inference Endpoints
 - Every processing step can use a different model inference endpoint, hence the four different "batches" (LLM_COORDINATOR, LLM_SUBAGENT, LLM_PLANNER, LLM_SUBTASKS)
     - You can certainly copy&paste the same endpoint values to each "batch" as long as all variables are set properly.
-- The model inference is using [LiteLlm](https://docs.litellm.ai/docs/), hence you should be able to pretty much every endpoint you like.
+- The model inference is using [LiteLlm](https://docs.litellm.ai/docs/), hence you should be able to use pretty much every endpoint you like.
     - LiteLlm convention for model id: provider/model-id
     - Examples
     ```
@@ -126,8 +126,9 @@ and enter a query. The processing pipeline will then start.
 
 The individual steps are shown in the terminal.
 
-The result will be stored in the directory results. The file name is a combination of shortened slug of your query and the date/time of the file writing.
+The result will be stored in the directory "results". The file name is a combination of a shortened slug of your query and the date/time of the file writing.
 
+#
 ## Example Usage
 ### Example question
 *On my Crassula Ovata I observed white stuff - mostly in the edges between stem and leafs. My first impuls is: this is some sort of pest. It's winter right now: the temperature in my flat is usually around 18° and I have installed additional lighning for the plants. Up until now, I didn't obeserve this. What can this be and how do I get rid of it?*
@@ -210,8 +211,6 @@ Research result saved to results/on-my-crassula-ovata-i-observed-white-2025-12-2
 Creates file on-my-crassula-ovata-i-observed-white-2025-12-27-09-20.md in directory results.
 
 #### Excerpt
-
-#
 ```markdown
 # White Substance on a Jade Plant (*Crassula ovata*): Diagnosis and Treatment
 
@@ -226,8 +225,8 @@ Where details are uncertain (e.g., exact texture or stickiness), those are treat
 Across university extension se...    
 ``` 
 
-
-## Example Steps
+#
+## Example Results For Each Step
 Refer to the files in the directory example-results: these are the results of each processing step in coordinator.py when you call the function run_deep_research.    
 1. Generate research plan
 2. Split into subtasks
