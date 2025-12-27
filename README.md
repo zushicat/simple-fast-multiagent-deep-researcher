@@ -229,10 +229,10 @@ Across university extension se...
 ## Example Results For Each Step
 Refer to the files in the directory "example-results": these are the results of each processing step in coordinator.py when you call the function run_deep_research.    
 The example query was "What is a good pet for a 9 year old kid?"   
-1. Generate research plan
-2. Split into subtasks
+1. Generated research plan
+2. Splitted subtasks
 3. Results of all execute subtasks
-4. The prompt to synthesize final report
+4. The prompt for the final report synthesizer
 5. The final result
 
 ## Prompts
