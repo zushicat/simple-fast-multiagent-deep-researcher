@@ -1,0 +1,37 @@
+[
+  {
+    "id": "child",
+    "title": "Child Factors, Safety, and Supervision",
+    "description": "Research typical capabilities and limitations of a 9-year-old child regarding pet care. Cover responsibility levels, common safety risks (bites, scratches, allergies, zoonotic disease), educational and emotional benefits, and how much adult supervision is generally required. Reference pediatric and child-development authorities and veterinary safety guidance."
+  },
+  {
+    "id": "mammals",
+    "title": "Small Mammals Suitable for Children",
+    "description": "Evaluate small mammals such as hamsters, guinea pigs, rabbits, mice, and similar pets. Analyze temperament with children, handling tolerance, care requirements, space needs, lifespan, costs, and common risks. Identify which species are more suitable or less suitable for a 9-year-old, with clear pros and cons."
+  },
+  {
+    "id": "fish",
+    "title": "Fish and Aquatic Pets",
+    "description": "Research fish options including betta fish, goldfish, and small community aquariums. Address setup complexity, ongoing maintenance, water quality management, costs, lifespan, educational value, and supervision needs. Note common misconceptions about ease of care and welfare considerations."
+  },
+  {
+    "id": "reptiles",
+    "title": "Reptiles and Amphibians",
+    "description": "Assess reptiles and amphibians that are sometimes marketed for children (e.g., turtles, geckos, frogs). Clearly document specialized care needs, safety and hygiene concerns (such as salmonella), costs, lifespan, and suitability for a 9-year-old. Emphasize risks and adult involvement requirements."
+  },
+  {
+    "id": "birds",
+    "title": "Birds Appropriate for Beginners",
+    "description": "Evaluate small bird species commonly recommended for beginners, such as budgies or finches. Analyze noise level, social needs, training and interaction, mess and odor, lifespan, costs, and child safety considerations. Determine suitability for a 9-year-old with varying levels of adult support."
+  },
+  {
+    "id": "catsdogs",
+    "title": "Cats and Dogs for Families with Children",
+    "description": "Research cats and dogs as family pets, emphasizing breeds or types known to be more child-friendly. Cover temperament, training needs, exercise requirements, safety, costs, lifespan, and level of adult responsibility. Clearly distinguish what aspects are appropriate for a child versus an adult caregiver."
+  },
+  {
+    "id": "lowmaint",
+    "title": "Low-Maintenance and Starter Pets",
+    "description": "Investigate low-maintenance or introductory pet options such as insects, snails, or other minimal-care animals. Assess educational value, costs, lifespan, supervision needs, and limitations compared to traditional pets. Note when such options may be appropriate for teaching basic responsibility."
+  }
+]

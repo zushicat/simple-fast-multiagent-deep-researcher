@@ -1,0 +1,16 @@
+[project]
+name = "simple-fastmulti-agent-researcher"
+version = "0.1.0"
+description = "A simple fast multiagent researcher"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv>=1.2.1",
+    "python-slugify==8.0.4",
+    "smolagents[litellm]>=1.23.0",
+    "Scrapy==2.13.4",
+    "beautifulsoup4==4.14.3",
+    "ddgs==9.10.0",
+    "playwright==1.57.0",
+    "markdownify==1.2.2"
+]
